@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"out": "www/js/app.js",
+		"module": "amd"
+	},
+	"exclude": [
+		"node_modules"
+	]
+}
