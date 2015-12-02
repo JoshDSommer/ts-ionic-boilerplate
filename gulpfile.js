@@ -11,7 +11,7 @@ var typescript = ts.createProject('tsconfig.json');
 
 var paths = {
   sass: ['./scss/**/*.scss'],
-  src: ['./src/*.ts']
+  src: ['./src/**/*.ts']
 
 };
 
