@@ -7,11 +7,17 @@ in the project root directory:
 
 `ionic setup sass`
 
-2) setup gulp-typscript
+2) setup gulp &  gulp-typscript
+
+`npm install gulp`
 
 `npm install gulp-typescript`
 
 you will need to install install gulp-tyscript which allows gulp to build form the tsconfig.json file, the gulp config is already setup. 
-https://github.com/ivogabe/gulp-typescript
+for more info: https://github.com/ivogabe/gulp-typescript
 
-I believe this is all that needs to be done. this is a WIP.
+3) after that run 
+
+`ionic serve`
+
+gulp will monitor for any changes made to the TS and SASS files 
